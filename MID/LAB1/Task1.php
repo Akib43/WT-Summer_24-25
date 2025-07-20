@@ -26,10 +26,10 @@
     </tr>
 
     <tr>
-    <td>Gender</td>
+    <td>Select Your gender</td>
         <td>
             <input type="radio" name="des"> Male
-            <input type="Radio" name="des"> Female
+            <input type="Radio" name="des"> Other
         </td>
     </tr>
     
