@@ -1,16 +1,15 @@
 <Doctype html>
 <html>
 
-<title>Form Html </title>
+<title>Lab Task 1</title>
 
 <body>
-    
     <center>
-        <h1>AIUB</h1>
-        <h2>Registration Form</h2>
+        <h1 style=" color: Blue">AIUB</h1>
+        <h2 style=" color: Blue">Registration Form</h2>
     </center>
-    
-    <h3 style ="font-style = bold" >Complete the registration</h3>
+
+    <h3 >Complete the registration</h3>
     <table> 
     <tr>
         <td>Full Name:</td> 
