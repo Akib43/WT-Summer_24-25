@@ -134,7 +134,7 @@
 
             <tr>
                 <td>Address:</td>
-                <td><input type="text"></textarea></td> 
+                <td><input type="text"></td> 
             </tr>
             
             <tr>
