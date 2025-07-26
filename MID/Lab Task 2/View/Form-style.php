@@ -24,7 +24,7 @@
         }
 
         div {
-            width: 50%;
+            width: 25%;
             padding: 20px;
             background-color: #f2f2f2ff;
             border-radius: 10px;
