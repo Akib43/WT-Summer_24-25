@@ -1,0 +1,58 @@
+ h2{
+    color: red;
+    text-align: left;
+ }
+
+ body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+ }
+
+ .maindiv{
+    width: 700px;
+    height: 1400px;
+    background-color: white;
+    
+ }
+
+ form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+ }
+
+ h4{
+    color: black;
+    text-align: left;
+    margin-bottom: 0px;
+ }
+
+
+ input[type="text"], input[type="email"],
+ input[type="number"], input[type="password"], select{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+textarea{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 10%;
+    height: 40px;
+}
+
+
+
