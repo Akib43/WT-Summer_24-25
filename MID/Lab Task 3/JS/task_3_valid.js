@@ -1,21 +1,25 @@
 function validating() {
+
     var fname = document.getElementById("Fname").value;
     var lname = document.getElementById("Lname").value;
     var address = document.getElementById("address").value;
     var city = document.getElementById("city").value;
-    var state = document.getElementById("state").value;
-    var phone = document.getElementById("phone").value;
+    var state = document.getElementById("ste").value;
+    var phone = document.getElementById("Phon").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("pass").value;
     var confirmPassword = document.getElementById("cpass").value;
     var donetamount = document.getElementById("amount").value;
-    var terms = document.getElementById("Rterms").checked;
-    var term1= document.getElementById("A1term").checked;
-    var term2= document.getElementById("A2term").checked;
-    var term3= document.getElementById("A3term").checked;
     var comments = document.getElementById("comment").value;
+    var terms = document.getElementById("Rterms").checked;
 
-    if (fname === "" || lname === "" || address === "" || 
+
+    // Not in use (Conflicting somewhere)
+    //var term1 = document.getElementById("A1term").checked;   
+    //var term2 = document.getElementById("A2term").checked;
+    //var term3 = document.getElementById("A3term").checked;
+
+     if (fname === "" || lname === "" || address === "" || 
         city === "" || state === "" || phone === "" || 
         email === "" || password === "" || 
         confirmPassword === "" || donetamount === "" 
@@ -24,18 +28,17 @@ function validating() {
         return false;
     }else{
         alert("All fields are filled out."+ 
-            " First name: " + fname + 
-              ", Last name: " + lname + 
-              ", Address: " + address + 
-              ", City: " + city + 
-              ", State: " + state + 
-              ", Phone: " + phone + 
-              ", Email: " + email + 
-              ", Donation Amount: " + donetamount +
+            " First name: " + fname + "\n" +
+              ", Last name: " + lname + "\n" +
+              ", Address: " + address + "\n" +
+              ", City: " + city + "\n" +
+              ", State: " + state + "\n" +
+              ", Phone: " + phone + "\n" +
+              ", Email: " + email + "\n" +
+              ", Donation Amount: " + donetamount + "\n" +
               ", Comments: " + comments);         
     }
-
-
+    
     if(preg_match(/^[a-zA-Z]+$/, fname) === false && preg_match(/^[a-zA-Z]+$/, lname) === false) {
         alert("First name and last name must contain only alphabets.");
         return false;

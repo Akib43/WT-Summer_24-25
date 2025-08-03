@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title>Donation form</title>
         <link rel="stylesheet" href="..\CSS\task_3_style.css">
         <script src="..\JS\task_3_valid.js"></script>
     </head>
@@ -23,7 +25,7 @@
                 <input type="text" id="city">
 
                 <h4>State</h4>
-                <select id="state" display="block">
+                <select id="ste" display="block">
                     <option value="">--Select--</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -42,7 +44,7 @@
                 </select>
 
                 <h4>Phone</h4>
-                <input type="text" id="Phone">
+                <input type="text" id="Phon">
 
                 <h4>Email</h4>
                 <input type="email" id="email">
